@@ -58,11 +58,11 @@ class HomeController extends Controller
             ->get();
 
         $researchInterests = [
-            'Network Security',
-            'Cybersecurity',
-            'Distributed Systems',
-            'Blockchain Technology',
-            'Data Science',
+            'Computer Vision',
+            'Deep Learning',
+            'Machine Vision',
+            'Data Engineering',
+            'Machine Learning',
         ];
 
         return view('frontend.home', compact('experiences', 'academics', 'skillTypes', 'skills', 'researchWorks', 'projects', 'activities', 'achievements', 'testScores', 'abouts', 'researchInterests'));
